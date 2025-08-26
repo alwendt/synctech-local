@@ -1,0 +1,48 @@
+{
+  "short_name": "Backup Viewer",
+  "name": "SMS Backup & Restore Backup Viewer",
+  "icons": [
+    {
+      "src": "/wp-content/uploads/backup-viewer/icon_192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/wp-content/uploads/backup-viewer/icon_512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/wp-content/uploads/backup-viewer/pwa.html",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/wp-content/uploads/backup-viewer/",
+  "theme_color": "#3367D6",
+  "shortcuts": [
+    {
+      "name": "View backups",
+      "short_name": "View",
+      "description": "View backup contents",
+      "url": "/wp-content/uploads/backup-viewer/pwa.html",
+      "icons": [
+        {
+          "src": "/wp-content/uploads/backup-viewer/icon_192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "description": "Backup Viewer",
+  "screenshots": [
+    {
+      "src": "/wp-content/uploads/backup-viewer/Screenshot_1615975102.png",
+      "type": "image/png",
+      "sizes": "1080x1920"
+    },
+    {
+      "src": "/wp-content/uploads/backup-viewer/Screenshot_1622799494.png",
+      "type": "image/png",
+      "sizes": "1080x1920"
+    }
+  ]
+}

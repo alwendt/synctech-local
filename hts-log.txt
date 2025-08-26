@@ -1,0 +1,153 @@
+HTTrack3.49-2 launched on Tue, 22 Jul 2025 21:47:42 at https://www.synctech.com.au/sms-backup-restore
+(winhttrack https://www.synctech.com.au/sms-backup-restore -W -O "/home/alan/websites/synctech" -%v )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+21:48:44	Error: 	"Forbidden" (403) at link https://www.synctech.com.au/xmlrpc.php?rsd (from https://www.synctech.com.au/sms-backup-restore/)
+21:48:44	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=134
+21:48:44	Warning: 	File has moved from https://www.synctech.com.au/?p=134 to https://www.synctech.com.au/sms-backup-restore/
+21:48:44	Error: 	"Bad Request" (400) at link https://www.synctech.com.au/wp-admin/admin-ajax.php (from https://www.synctech.com.au/sms-backup-restore/)
+21:51:15	Warning: 	Link https://www.synctech.com.au/checkout/ not scanned (follow robots meta tag)
+21:52:50	Error: 	"Not Found" (404) at link https://www.synctech.com.au/wp-content/themes/onepress-child-theme/edd_templates/images/xit.gif (from https://www.synctech.com.au/wp-content/themes/onepress-child-theme/edd_templates/edd.css?ver=3.3.5.2)
+21:52:50	Error: 	"Not Found" (404) at link https://www.synctech.com.au/wp-content/themes/onepress-child-theme/edd_templates/images/tick.png (from https://www.synctech.com.au/wp-content/themes/onepress-child-theme/edd_templates/edd.css?ver=3.3.5.2)
+21:52:50	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=711
+21:52:50	Warning: 	File has moved from https://www.synctech.com.au/?p=711 to https://www.synctech.com.au/sms-backup-restore/view-backup/
+21:52:50	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=55
+21:52:50	Warning: 	File has moved from https://www.synctech.com.au/?p=55 to https://www.synctech.com.au/sms-backup-restore/sms-faqs/
+21:57:23	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=767
+21:57:23	Warning: 	File has moved from https://www.synctech.com.au/?p=767 to https://www.synctech.com.au/support-development/
+21:57:23	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=46
+21:57:23	Warning: 	File has moved from https://www.synctech.com.au/?p=46 to https://www.synctech.com.au/privacy-policy/
+21:57:23	Error: 	"Not Found" (404) at link https://www.synctech.com.au/privacy-policy/_wp_link_placeholder (from https://www.synctech.com.au/privacy-policy/)
+21:57:23	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=44
+21:57:23	Warning: 	File has moved from https://www.synctech.com.au/?p=44 to https://www.synctech.com.au/contact-us/
+21:57:23	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=2074
+21:57:23	Warning: 	File has moved from https://www.synctech.com.au/?p=2074 to https://www.synctech.com.au/faqs/webdav-settings/
+21:57:25	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=2126
+21:57:25	Warning: 	File has moved from https://www.synctech.com.au/?p=2126 to https://www.synctech.com.au/checkout/
+21:57:25	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=245
+21:57:25	Warning: 	File has moved from https://www.synctech.com.au/?p=245 to https://www.synctech.com.au/sms-backup-restore/fields-in-xml-backup-files/
+21:57:25	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=171
+21:57:25	Warning: 	File has moved from https://www.synctech.com.au/?p=171 to https://www.synctech.com.au/sms-backup-restore/transferring-messages-from-your-old-phone/
+21:57:25	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=298
+21:57:25	Warning: 	File has moved from https://www.synctech.com.au/?p=298 to https://www.synctech.com.au/sms-backup-restore/view-or-edit-backup-files-on-computer/
+21:57:25	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=379
+21:57:25	Warning: 	File has moved from https://www.synctech.com.au/?p=379 to https://www.synctech.com.au/sms-backup-restore/changelog/
+21:57:25	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=169
+21:57:25	Warning: 	File has moved from https://www.synctech.com.au/?p=169 to https://www.synctech.com.au/sms-backup-restore/print-pdf-fail/
+21:57:25	Error: 	"Not Found" (404) at link https://www.synctech.com.au/wp-content/plugins/wp-appbox/buttons/appbox.btn.png (from https://www.synctech.com.au/wp-content/plugins/wp-appbox/css/styles.min.css?ver=4.5.6)
+21:57:25	Error: 	"Not Found" (404) at link https://www.synctech.com.au/wp-content/plugins/wp-appbox/img/edge-extensions-small.png (from https://www.synctech.com.au/wp-content/plugins/wp-appbox/css/styles.min.css?ver=4.5.6)
+21:57:25	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=58
+21:57:25	Warning: 	File has moved from https://www.synctech.com.au/?p=58 to https://www.synctech.com.au/faqs/question1/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=59
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=59 to https://www.synctech.com.au/faqs/question2/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=296
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=296 to https://www.synctech.com.au/faqs/recover-deleted-messages/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=2105
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=2105 to https://www.synctech.com.au/faqs/which-messages-can-this-app-restore/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=654
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=654 to https://www.synctech.com.au/faqs/rcs-messages/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=66
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=66 to https://www.synctech.com.au/faqs/i-need-to-factory-reset-my-phone-how-do-i-make-sure-that-i-can-get-my-messages-back/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=68
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=68 to https://www.synctech.com.au/faqs/what-kind-of-information-is-collected-stored-by-this-app/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=70
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=70 to https://www.synctech.com.au/faqs/how-do-i-reset-my-password/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=71
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=71 to https://www.synctech.com.au/faqs/why-is-the-app-not-showing-all-text-in-my-language/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=82
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=82 to https://www.synctech.com.au/faqs/how-can-i-see-my-backup-files-in-an-easy-to-understand-format/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=92
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=92 to https://www.synctech.com.au/faqs/can-i-use-this-app-to-transfer-messages-calls-from-my-old-phone-if-so-how-2/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=103
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=103 to https://www.synctech.com.au/faqs/im-getting-an-error-when-trying-to-backup-or-restore-how-do-i-get-it-working-2/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=223
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=223 to https://www.synctech.com.au/faqs/why-am-i-seeing-ads-in-the-app-can-i-remove-them/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=391
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=391 to https://www.synctech.com.au/faqs/advanced-messages/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=581
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=581 to https://www.synctech.com.au/faqs/what-is-the-difference-between-the-free-and-the-paid-version-of-the-app/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=650
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=650 to https://www.synctech.com.au/faqs/can-i-use-this-app-to-back-up-messages-to-gmail/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=652
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=652 to https://www.synctech.com.au/faqs/oneplus-android-10-default-sms-app/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=2050
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=2050 to https://www.synctech.com.au/faqs/transfer-failure/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=733
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=733 to https://www.synctech.com.au/faqs/print-messages/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=2062
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=2062 to https://www.synctech.com.au/faqs/reduce-storage-used-by-backups/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=2070
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=2070 to https://www.synctech.com.au/faqs/local-backups-for-cloud-backups/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=2095
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=2095 to https://www.synctech.com.au/faqs/do-you-have-an-iphone-ios-version-of-this-app/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=2097
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=2097 to https://www.synctech.com.au/faqs/does-sms-backup-restore-work-on-ios/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=2110
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=2110 to https://www.synctech.com.au/faqs/auto-revoke-permissions/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=2207
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=2207 to https://www.synctech.com.au/faqs/import-google-voice/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=2214
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=2214 to https://www.synctech.com.au/faqs/why-is-full-access-to-google-drive-not-recommended/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=2190
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=2190 to https://www.synctech.com.au/faqs/which-permissions-does-the-app-request-and-why/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=2218
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=2218 to https://www.synctech.com.au/faqs/why-is-the-app-not-showing-my-backup-files-and-folders-from-google-drive/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=2225
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=2225 to https://www.synctech.com.au/faqs/messages-duplicated-samsung/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=2234
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=2234 to https://www.synctech.com.au/faqs/google-unverified-app/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=72
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=72 to https://www.synctech.com.au/faqs/can-i-schedule-backups-automatically/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=73
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=73 to https://www.synctech.com.au/faqs/where-is-the-backup-stored/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=74
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=74 to https://www.synctech.com.au/faqs/how-do-i-access-the-backup-files/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=75
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=75 to https://www.synctech.com.au/faqs/what-type-of-file-is-created-for-the-backup/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=76
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=76 to https://www.synctech.com.au/faqs/what-is-that-number-the-date-field-in-the-backup-file/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=673
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=673 to https://www.synctech.com.au/faqs/backup-types/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=78
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=78 to https://www.synctech.com.au/faqs/what-is-archive-mode/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=294
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=294 to https://www.synctech.com.au/faqs/why-are-all-my-messages-not-getting-backed-up/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=600
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=600 to https://www.synctech.com.au/faqs/why-does-the-app-only-back-up-500-call-logs/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=295
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=295 to https://www.synctech.com.au/faqs/what-happens-to-existing-messages-or-calls-after-a-restore/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=647
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=647 to https://www.synctech.com.au/faqs/restore-missing-messages/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=648
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=648 to https://www.synctech.com.au/faqs/pixel-mms-missing/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=655
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=655 to https://www.synctech.com.au/faqs/restore-conversation/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=86
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=86 to https://www.synctech.com.au/faqs/schedule-issues/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=87
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=87 to https://www.synctech.com.au/faqs/i-am-getting-an-error-like-no-write-access-to-file-sdcard-smsbackuprestore-nameoffile-xml-during-backup-whats-going-on/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=2209
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=2209 to https://www.synctech.com.au/faqs/why-are-my-backups-to-onedrive-failing-with-unknown-error/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=95
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=95 to https://www.synctech.com.au/faqs/cannot-find-the-backup-files/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=96
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=96 to https://www.synctech.com.au/faqs/i-just-restored-a-few-thousand-text-messages-and-now-every-time-i-open-the-messaging-app-it-freezes-and-nothing-appears-what-do-i-do-now/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=97
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=97 to https://www.synctech.com.au/faqs/i-tried-the-restore-but-not-all-messages-were-restored-why/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=101
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=101 to https://www.synctech.com.au/faqs/why-were-my-draft-messages-not-restored/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=102
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=102 to https://www.synctech.com.au/faqs/after-restoring-my-sms-messages-are-now-in-the-wrong-order-have-incorrect-times-or-are-duplicated-why/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=106
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=106 to https://www.synctech.com.au/faqs/print-pdf-fail/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=108
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=108 to https://www.synctech.com.au/faqs/this-app-has-deleted-all-of-my-messages-calls/
+21:57:27	Warning: 	Moved Permanently for https://www.synctech.com.au/?p=109
+21:57:27	Warning: 	File has moved from https://www.synctech.com.au/?p=109 to https://www.synctech.com.au/faqs/why-is-the-app-starting-when-i-restart-reboot-the-phone-i-can-see-it-in-the-task-manager-app/
+
+HTTrack Website Copier/3.49-2 mirror complete in 9 minutes 45 seconds : 507 links scanned, 432 files written (8815474 bytes overall) [3454113 bytes received at 5904 bytes/sec], 7439779 bytes transferred using HTTP compression in 272 files, ratio 22%, 19.5 requests per connection
+(7 errors, 135 warnings, 0 messages)

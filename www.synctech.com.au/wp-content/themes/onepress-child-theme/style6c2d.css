@@ -1,0 +1,281 @@
+/*
+Theme Name:     onepress Child Theme
+Description:    Child Theme for one Press
+Author:         Amardeep Chahal
+Template:       onepress
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+.welcome-heading h3{
+font-size: 40px;
+text-align: center;
+padding: 60px 0 0 0;
+position:relative;}
+.welcome-heading h3::before {
+	position: absolute;
+	content: "";
+	background: #03c4eb;
+	width: 170px;
+	height: 2px;
+	left: 42%;
+	bottom: -33%;
+}
+.welcome-heading h3::after {
+	position: absolute;
+	content: "";
+	background: #fff;
+	left: 49%;
+	bottom: -37%;
+	border: 2px solid #03c4eb;
+	width: 11px;
+	height: 11px;
+}
+.welcome p{
+padding: 80px 0 70px 0;
+line-height: 30px;}
+
+.hero-large-text {
+   font-size: 40px !important;
+    text-align: left;
+}
+.hero-content-style1 {
+	text-align: left !important;
+}
+.hero-content-style1 a{
+position: relative;
+left: 14% !important;
+}
+.hero-small-text{
+text-align: center;
+width: 500px;
+position: relative;
+right: 12px;
+}
+.welcome-img img{
+margin-top:35px;
+}
+.feature h3{
+    text-align: center;
+    font-size: 40px;
+    position:relative;
+padding: 60px 0 0 0;
+}
+.feature h3::before {
+	position: absolute;
+	content: "";
+	background: #03c4eb;
+	width: 170px;
+	height: 2px;
+	left: 42%;
+	bottom: -33%;
+}
+.feature h3::after {
+	position: absolute;
+	content: "";
+	background: #fff;
+	left: 49%;
+	bottom: -43%;
+	border: 2px solid #03c4eb;
+	width: 11px;
+	height: 11px;
+}
+.feature-list ul{
+text-align: center;
+list-style: none;
+margin: 50px 0 50px 0;
+}
+
+.head-bold{
+font-weight: 600 !important;
+font-size: 20px !important;
+margin: 20px 0 15px 0 !important;}
+
+.feature-list ul a{
+background: #03c4eb;
+color: #fff;
+padding: 8px 10px;
+border-radius: 3px;
+text-decoration: none;}
+
+.head-margin {
+	margin: 0 0 20px 0;
+}
+
+/**responsive starts from here***/
+@media(max-width:1200px){
+#post-44 {
+  width: 100%;
+}
+}
+@media(min-width:992px){
+#post-44 {
+  width: 100%;
+}
+}
+@media(max-width:991px){
+.page-id-44 .wpcf7-form {
+  float: none !important;
+  margin: 0 60px 0 0;
+}
+#post-44 {
+  width: 100% !important;
+}
+}
+@media(min-width:768px) {
+.page-id-44 .wpcf7-form {
+  float: none !important;
+  margin: 0 60px 0 0;
+}
+.welcome p {
+	padding: 0 !important;
+}
+.feature-part-img {
+	text-align: center !important;
+}
+.get-touch h3 {
+	padding: 0 0 30px 0!important;
+}
+#post-44 {
+	margin-bottom: 0px !important;
+}
+}
+@media(max-width: 767px){
+	#pgc-44-1-1 .wpcf7-form {
+	margin: 0;
+	float: none !important;
+}
+	#post-44 {
+	width: 100%;
+	padding: 20px;
+	margin-bottom: 0;
+}
+	.contact-list ul::before {
+	font-size: 37px;
+}
+	.email-support::before{
+		font-size:27px !important;
+	}
+	.get-touch h3 {
+	padding: 0;
+	font-size: 27px;
+	position: relative;
+	text-align: center;
+}
+	.get-touch h3::before {
+	content: "";
+	position: absolute;
+	top: 48px;
+}
+	.get-touch h3::after {
+	position: absolute;
+	top: 45px;
+	left: -4px;
+	}
+	#pgc-44-1-1 textarea {
+	background: transparent;
+	height: 90px;
+}
+	.privacy-policy h3 {
+	font-size: 30px;
+	position: relative;
+	padding: 0 0 22px 0;
+}
+	.privacy-policy h3::before {
+	position: absolute;
+	top: 43px;
+}
+	.privacy-policy p {
+	text-align: justify;
+}
+	.privacy-policy ul li h4 {
+	font-size: 20px;
+	padding: 0;
+}
+	.menu-sms-backup-app-container li {
+	float: left;
+	width: 100%;
+}
+	.heading-feature h3 {
+	font-size: 30px;
+}
+
+	.feature-parts h6 {
+	font-size: 15px;
+}
+	.feature-parts ul li {
+	font-size: 13px;
+}
+	.feature-parts1 {
+	margin: 0;
+}
+	.download .wpappbox {
+	margin: 0 auto;
+	width: 100%;
+	border: 1px solid #03c4eb;
+}
+	.feature-part-img {
+	margin: 0;
+	text-align: center;
+}
+.feature-para {
+	text-align: center;
+	margin: 0;
+}
+	.last-section {
+	padding: 0 !important;
+}
+.hero-large-text {
+	font-size: 20px !important;
+	margin-left: 11px !important;
+}
+.hero-small-text {
+	width: 300px !important;
+	position: relative;
+	right: 0 !important;
+}
+	.google-play {
+	display: inline-block;
+	margin: 0 0 0 -66px;
+}
+.welcome-heading h3 {
+	padding: 31px 0 0 0 !important;
+	font-size: 26px !important;
+}
+
+.welcome p {
+	padding: 0 !important;
+	line-height: 30px !important;
+}
+	.welcome-img img {
+	 margin-top: 0px !important;
+}
+	.feature h3 {
+	padding: 25px 0 0 0;
+		font-size: 35px;
+}
+.feature h3::before {
+	position: absolute;
+	content: "";
+	background: #03c4eb;
+	width: 150px;
+	height: 2px;
+	margin: 0 auto;
+}
+	.feature-list ul {
+	margin: 0px 0 30px 0;
+	padding: 0;
+}
+	.google-play img {
+ margin-left: 0;
+width: 150px;
+}
+	.privacy-policy h3::after {
+	position: absolute;
+	top: 43px;
+}
+.sidebar .widget a{
+font-size: 12px !important;
+}
+}
+
+

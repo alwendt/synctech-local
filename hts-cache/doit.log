@@ -1,0 +1,8 @@
+https://www.synctech.com.au/sms-backup-restore -W -O "/home/alan/websites/synctech" -%v
+File generated automatically on Tue, 22 Jul 2025 21:47:42, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+
