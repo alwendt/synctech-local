@@ -2,7 +2,7 @@
 
 
 I was using  https://synctech.com.au/view-backup/ to read my sms backups on my local machine.
-To go completely, local I used httrack to mirror a copy of synctech's code onto my local machine
+To go completely local, I used httrack to mirror a copy of synctech's code onto my local machine
 so I can read the messages even with no internet access.  This is all synctech code.
 
 I did make one small change to sort the contacts by descending message count, so that I see
