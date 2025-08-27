@@ -87,7 +87,11 @@ function sortContactsByLastDate(a, b) {
 }
 
 function sortContactsByCountDesc(a, b) {
-    return (b.count || 0) - (a.count || 0);
+  const ac = (a.count|0), bc = (b.count|0);
+  if (bc !== ac) return bc - ac;                        // highest count first
+  const ad = a.lastDate || a.lastdate || 0, bd = b.lastDate || b.lastdate || 0;
+  if (bd !== ad) return bd - ad;                        // newer last activity first (tiebreak)
+  return (a.name || '').localeCompare(b.name || '');    // final tiebreak
 }
 
 
@@ -256,12 +260,15 @@ function readAllConversations(file, sortOrder) {
         }
         eventType = parser.next();
     }
-    //if (sortOrder == "Asc") {
-    //    contacts.sort(sortContactsByLastDate);
-    //} else {
-    //    contacts.sort(sortContactsByLastDateReverse);
-    //}
-    contacts.sort(sortContactsByCountDesc);
+
+    if (sortOrder == "Asc") {
+        contacts.sort(sortContactsByLastDate);
+    } else if (sortOrder == "Desc") {
+        contacts.sort(sortContactsByLastDateReverse);
+    } else {
+	contacts.sort(sortContactsByCountDesc);
+    }
+
     var allContacts = { name: "All " + fileContents, number: "", firstDate: fileFirstDate, lastDate: fileLastDate, count: recordIndex + 1, searchAddress: "" };
     contacts.unshift(allContacts);
     postMessage({ name: "FINISHED_CONVERSATIONS", data: { file_contents: fileContents, file_contacts: contacts } });
@@ -460,12 +467,14 @@ async function loadAllForCache(file, sortOrder, loadMedia, startDate, endDate) {
         }
         eventType = parser.next();
     }
-    //if (sortOrder == "Asc") {
-    //    contacts.sort(sortContactsByLastDate);
-    //} else {
-    //    contacts.sort(sortContactsByLastDateReverse);
-    //}
-    contacts.sort(sortContactsByCountDesc);
+
+    if (sortOrder == "Asc") {
+        contacts.sort(sortContactsByLastDate);
+    } else if (sortOrder == "Desc") {
+        contacts.sort(sortContactsByLastDateReverse);
+    } else {
+	contacts.sort(sortContactsByCountDesc);
+    }
 
     var allContacts = { name: "All " + fileContents, number: "", firstDate: fileFirstDate, lastDate: fileLastDate, count: currentCount, searchAddress: "" };
     contacts.unshift(allContacts);
