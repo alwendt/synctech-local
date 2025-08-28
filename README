@@ -1,10 +1,78 @@
 
+Synctech SMS Backup Viewer (offline mirror)
+
+I was using https://synctech.com.au/view-backup/
+ to read my SMS backups on my local machine.
+To go completely local, I used HTTrack to mirror a copy of Synctech’s site so I can read messages even with no internet access.
+This is all Synctech code.
+
+I added an option to sort contacts by descending message count, so the people I text the most appear at the top.
+
+Quick start
+# 1) Install Python 3 (see below if you don't have it)
+# 2) Clone the repo
+git clone https://github.com/alwendt/synctech-local.git
+cd synctech-local/www.synctech.com.au
+
+# 3) Serve locally (port 8000)
+python3 -m http.server 8000 --bind 127.0.0.1
+
+# 4) Open in your browser
+# (either of these usually works depending on the mirror layout)
+http://localhost:8000/view-backup/
+# or
+http://localhost:8000/view-backup/index.html
 
 
-I was using  https://synctech.com.au/view-backup/ to read my sms backups on my local machine.
-To go completely local, I used httrack to mirror a copy of synctech's code onto my local machine
-so I can read the messages even with no internet access.  This is all synctech code.
+Prerequisites
 
-I did make one small change to sort the contacts by descending message count, so that I see
-the contacts that I talk to the most at the top.
- 
+Git
+
+Python 3.7+ (for the built-in simple HTTP server)
+
+Ubuntu/Debian: sudo apt-get install -y python3
+
+macOS (Homebrew): brew install python
+
+Windows: install from https://www.python.org/downloads/
+ or use WSL
+
+No other dependencies are required.
+
+Optional: helper script
+
+If you prefer a one-liner script (Linux/macOS), save this as serve.sh in the repo root:
+
+#!/usr/bin/env bash
+set -euo pipefail
+
+DIR="$HOME/gits/synctech-local/www.synctech.com.au"
+PORT=8000
+
+cd "$DIR" || { echo "Directory not found: $DIR"; exit 1; }
+python3 -m http.server "$PORT" --bind 127.0.0.1 &
+SERVER_PID=$!
+
+echo "Started server on http://localhost:$PORT (pid $SERVER_PID)"
+trap 'kill "$SERVER_PID" 2>/dev/null || true' EXIT
+wait "$SERVER_PID"
+
+
+Make it executable with chmod +x serve.sh, then run ./serve.sh.
+
+Shell tip: ~ expands only when unquoted. Use "$HOME/…" (recommended) or unquoted ~/….
+cd "~/gits/…" # ❌ will fail; cd "$HOME/gits/…" # ✅ will work.
+
+Directory layout
+
+www.synctech.com.au/ — HTTrack mirror of Synctech’s site.
+
+view-backup/ — the SMS viewer.
+
+Any local tweaks (like the “most messages first” sort) live in the mirrored files.
+
+Credits
+
+Original viewer: Synctech — this repo is just a local mirror for offline use.
+
+Local change: added “Most messages first” sorting option for contacts.
